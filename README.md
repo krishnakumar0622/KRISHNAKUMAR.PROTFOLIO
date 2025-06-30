@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0f0f2f;
+      color: white;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      background: #111;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    nav {
+      background: #1c1c1c;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      gap: 20px;
+    }
+    nav a {
+      color: #00c3ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #00c3ff;
+      object-fit: cover;
+    }
+    .hero h2 {
+      margin-top: 20px;
+      font-size: 2rem;
+    }
+    .hero p {
+      font-size: 1rem;
+      color: #ccc;
+      max-width: 600px;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #00c3ff;
+    }
+    .SKILLS span {
+      display: inline-block;
+      background: #00c3ff;
+      color: #000;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 30px;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .projects div {
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #00c3ff;
+    }
+      #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: #0f0f2f;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <h1>KRISHNA KUMAR R</h1>
+    <p>Immediate Joiner | Fresher | Core Java Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#projects">PROJECT</a>
+    <a href="#certifications">CERTIFICATIONS</a>
+    <a href="#education">EDUCATION</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+
+  <section class="hero">
+    <img src="krishna.jpg.jpg" alt="KrishnaKumar">
+    <h2>HELLO, I'M KRISHNA KUMAR</h2>
+    <p>A passionate fresher with a background in Electrical and Electronics Engineering, transitioning into the tech world with strong Core Java knowledge. I am eager to start my journey in a software or IT company where I can grow and contribute.</p>
+  </section>
+
+  <section id="about">
+    <h2>ABOUT ME</h2>
+    <p>I am an enthusiastic and driven graduate in Electrical and Electronics Engineering from Panimalar Engineering College, passed out in 2025. Although my academic background is rooted in EEE, my passion lies in the software domain. To bridge this transition, I successfully completed Core Java training with certification from FIIT Institute. I am committed to pursuing a career in the IT field, where I can apply my programming skills, grow continuously, and contribute meaningfully to any software development environment.</p>
+  </section>
+
+  <section id="skills">
+    <h2>SKILLS</h2>
+    <div class="skills">
+      <span>☕ Core Java</span>
+      <span>🗃️ SQL</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>PROJECTS</h2>
+
+    <div style="border: 1px solid #00c3ff; padding: 20px; border-radius: 10px; margin-bottom: 20px; background: rgba(255,255,255,0.03);">
+      <h3>🗳️ Online Voting System (Core Java)</h3>
+      <p>A console-based voting system built with Core Java. It allows users to vote for predefined candidates after validating their age. The program handles vote counting, eligibility checking, and provides a final tally of results.</p>
+      <ul>
+        <li>Checks user eligibility based on age (18+)</li>
+        <li>Offers  party candidates to vote for (eg.DMK, ADMK, TVK, PMK, VCK)</li>
+        <li>Records votes and displays the final result at the end</li>
+        <li>Built using Scanner class and conditional branching</li>
+      </ul>
+      <p><strong>Tech Used:</strong> Core Java, Scanner class, Loops & Conditions</p>
+      
+    </div>
+
+    
+
+  </section>
+
+  <section id="certifications">
+    <h2>CERTIFICATIONS</h2>
+    <ul>
+      <li>📜 <a href="https://drive.google.com/file/d/1zw1tRw332pPcTUsC2Wln9Qjh__NEMq_j/view?usp=sharing" target="_blank">Core Java Certification</a></li>
+      <li>🏅 <a href="https://drive.google.com/file/d/1PkWGN7EaBBSNZQnsr7bO_eUzVgUV0dyL/view?usp=sharing" target="_blank">Oracle Certified Foundation Associate</a></li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>EDUCATION</h2>
+    <ul style="color: white;">
+      <li>🎓 <strong>Bachelor of Engineering in Electrical and Electronics Engineering</strong><br>
+        <strong>Panimalar Engineering College, Anna University</strong><br>
+        <strong>Graduation Year:</strong> 2025<br>
+        <strong>CGPA:</strong> 7.8</li>
+      <li>📚 <strong>Higher Secondary (HSC)</strong><br>
+        <strong>State Board</strong> – 2021<br>
+        <strong>Percentage:</strong> 84%</li>
+      <li>🏫 <strong>Secondary School Leaving Certificate (SSLC)</strong><br>
+        <strong>State Board</strong> – 2018<br>
+        <strong>Percentage:</strong> 81%</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>CONTACT</h2>
+    <p>✉️ Email: <a href="mailto:kk2898501@gmail.com">kk2898501@gmail.com</a></p>
+    <p>📞 Phone: <a href="tel:+919486789352">9486789352</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/krishna-kumar-r-3075b624a" target="_blank">KRISHNA KUMAR R</a></p>
+    <div style="margin-top: 20px; text-align: center;">
+    <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:KrishnaKumar R%0AEMAIL:kk2898501@gmail.com%0ATEL:+919486789352%0AURL:https://www.linkedin.com/in/krishna-kumar-r-3075b624a%0AEND:VCARD" download="krishna-kumar.vcf" style="display: inline-block; margin: 10px auto; padding: 10px 20px; background-color: #00c3ff; color: black; border-radius: 8px; text-decoration: none; font-weight: bold;">📥 Download vCard</a>
+  </div>
+</section>
+
+<section id="contact-form">
+  <h2>CONTACT FORM</h2>
+  <form action="#" method="post" style="display: flex; flex-direction: column; gap: 15px;">
+    <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; border-radius: 5px; border: none;">
+    <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px; border: none;">
+    <textarea name="message" placeholder="Your Message" rows="5" required style="padding: 10px; border-radius: 5px; border: none;"></textarea>
+    <button type="submit" style="padding: 10px; border: none; background-color: #00c3ff; color: black; font-weight: bold; border-radius: 5px;">Send Message</button>
+  </form>
+</section>
+
+<footer>
+    &copy; 2025 KrishnaKumar R. All rights reserved.
+  </footer>
+<script>
+    particlesJS("particles-js", {
+      particles: {
+        number: {
+          value: 60,
+          density: { enable: true, value_area: 800 }
+        },
+        color: { value: "#00c3ff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5, random: false },
+        size: { value: 3, random: true },
+        move: { enable: true, speed: 2 }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          repulse: { distance: 100, duration: 0.4 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>
